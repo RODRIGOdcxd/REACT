@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  width: 100%;
+  grid-area: main;
+}
+/*DIV IMAGENES*/
+.divImg{
+  position: relative;
+  width: inherit;
+  height: 56em;
+  margin-bottom: 10em;
+}
+@media screen and (max-width: 1510px){
+  .divImg{
+    height: 53em;
+  }
+}
+@media screen and (max-width: 1260px){
+  .divImg{
+    height: 43.5em;
+  }
+}
+@media screen and (max-width: 1080px){
+  .divImg{
+    height: 37em;
+  }
+}
+.divImgs{
+  position: absolute;
+}
+.update{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.first{
+  width: 60%;
+}
+.second{
+  width: 25%;
+  left: 70%;
+  top: 20.5%;
+}
+.three{
+  width: 25%;
+  top: 55%;
+  left: 50%;
+}
+.img-im{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.divText{
+  position: absolute;
+  top: 0%;
+  
+}
+.divText{
+  padding-left: 7%;
+  padding-top: 4%;
+  width: 93%;
+}
+.pri p{
+  color: #D5B3FF;
+}
+.pri p:first-child{
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.pri p:last-child{
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.seg p{
+  color: cyan;
+}
+.seg p:first-child{
+  font-size: 3em;
+  
+  font-weight: bold;
+}
+.seg p:last-child{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.ter p{
+  color: #FBFFA7;
+}
+.ter p:first-child{
+  font-size: 2.3em;
+  font-weight: bold;
+}
+.ter p:last-child{
+  font-size: 1.3em;
+  text-decoration: underline;
+}
+/*FIN*/
+
+/*DIV PANELES*/
+.divPanels{
+  padding: 0 10%;
+}
+.divPanel{
+  margin-bottom: 5em;
+}
+.panelCabeza{
+  display: flex;
+  margin-bottom: 2.5em;
+}
+.panelCabeza h1{
+  display: flex;
+  width: 50%;
+}
+.panelCabeza ul{
+  display: flex;
+  width: 50%;
+  justify-content: right;
+  align-items: center;
+}
+.panelCabeza li{
+  margin: 0 1em;
+}
+.panelCabeza a{
+  color: blue;
+  font-size: 1.3em;
+}
+.panelesImgInfo{
+  display: grid;
+  grid-template-areas: 
+  "img1 img2 img3"
+  "texto1 texto2 texto3";
+  gap: 1em;
+}
+.panelesImgInfo img{
+  width: 100%;
+  height: 100%;
+}
+.span1{
+  background-color: #FED134;
+  padding: 0.2em 0.8em;
+}
+.span2{
+  background-color: #D5B3FF;
+  padding: 0.2em 0.8em;
+}
+.span3{
+  background-color: #6DCBFF;
+  padding: 0.2em 0.8em;
+}
+.textoPaneles p{
+  margin-top: 0.5em;
+}
+
+.more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  height: 7em;
+  margin-bottom: 5em;
+}
+.more ul{
+  display: flex;
+}
+.more li{
+  margin: 0 0.5em;
+}
+.more a{
+  color: blue;
+}
+.more ul li:first-child a{
+  color: black;
+}
